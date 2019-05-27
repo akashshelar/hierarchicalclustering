@@ -1,9 +1,410 @@
-[27-May-2016 06:49:23 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/admin/ViewFeedback.php on line 88
-[27-May-2016 07:08:40 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/ViewFeedback.php on line 120
-[27-May-2016 08:56:42 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 125
-[27-May-2016 09:02:14 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 133
-[27-May-2016 09:03:36 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 133
-[27-May-2016 09:03:38 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 133
-[27-May-2016 09:03:39 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 133
-[27-May-2016 10:40:44 UTC] PHP Fatal error:  Call to undefined function back() in /home/trekdaddy/public_html/admin/group_details.php on line 16
-[28-May-2016 13:40:25 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/trekdaddy/public_html/admin/group_details.php on line 153
+[17-Mar-2016 04:27:09 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 06:19:52 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 06:21:45 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 06:24:32 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 06:26:42 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 08:13:39 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:27:39 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:27:48 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:28:09 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:28:31 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:28:33 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:28:59 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:31:08 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:32:41 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:34:14 UTC] PHP Fatal error:  Class 'mysql' not found in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:34:19 UTC] PHP Fatal error:  Class 'mysql' not found in /home/trekdaddy/public_html/appdata/index.php on line 12
+[17-Mar-2016 13:36:23 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:40:32 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:45:50 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:45:57 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:46:00 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:46:35 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:46:39 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:47:40 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:47:56 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:49:03 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:49:05 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:49:44 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:49:46 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:49:51 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:49:56 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:50:00 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:55:05 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 11:55:18 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 12:01:47 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 12
+[18-Mar-2016 12:02:24 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: NO) in /home/trekdaddy/public_html/appdata/index.php on line 13
+[18-Mar-2016 12:05:56 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'ip-107-180-56-179.ip.secureserver.net' (using password: NO) in /home/trekdaddy/public_html/appdata/index.php on line 14
+[18-Mar-2016 12:11:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'Lifestandate'@'ip-107-180-56-179.ip.secureserver.net' (using password: YES) in /home/trekdaddy/public_html/appdata/index.php on line 13
+[18-Mar-2016 12:11:40 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 15
+[18-Mar-2016 12:11:40 UTC] PHP Fatal error:  Call to undefined function RegisterUser() in /home/trekdaddy/public_html/appdata/index.php on line 42
+[18-Mar-2016 12:13:54 UTC] PHP Fatal error:  Call to undefined function RegisterUser() in /home/trekdaddy/public_html/appdata/index.php on line 42
+[18-Mar-2016 12:22:31 UTC] PHP Notice:  Undefined variable: _request in /home/trekdaddy/public_html/appdata/index.php on line 60
+[18-Mar-2016 12:32:51 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 72
+[18-Mar-2016 12:34:48 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 72
+[18-Mar-2016 12:34:55 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 72
+[18-Mar-2016 12:50:56 UTC] PHP Notice:  Undefined variable: cnt_rows in /home/trekdaddy/public_html/appdata/index.php on line 74
+[18-Mar-2016 12:50:56 UTC] PHP Notice:  Use of undefined constant create_user - assumed 'create_user' in /home/trekdaddy/public_html/appdata/index.php on line 82
+[18-Mar-2016 12:51:18 UTC] PHP Notice:  Undefined variable: cnt_rows in /home/trekdaddy/public_html/appdata/index.php on line 74
+[18-Mar-2016 13:10:28 UTC] PHP Fatal error:  Call to undefined function LoginUser() in /home/trekdaddy/public_html/appdata/index.php on line 42
+[18-Mar-2016 13:19:46 UTC] PHP Notice:  Undefined variable: conn in /home/trekdaddy/public_html/appdata/index.php on line 102
+[18-Mar-2016 13:19:46 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 102
+[18-Mar-2016 13:22:13 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 105
+[18-Mar-2016 13:22:13 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 106
+[18-Mar-2016 13:22:29 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 105
+[18-Mar-2016 13:22:29 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 106
+[21-Mar-2016 10:33:10 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 246
+[21-Mar-2016 10:34:05 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 246
+[21-Mar-2016 10:34:07 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 246
+[08-Apr-2016 13:33:41 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 269
+[08-Apr-2016 13:35:02 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 269
+[11-Apr-2016 10:52:34 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 306
+[11-Apr-2016 10:53:04 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 309
+[11-Apr-2016 10:58:11 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 309
+[11-Apr-2016 11:00:15 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 309
+[11-Apr-2016 11:11:15 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 309
+[11-Apr-2016 11:12:14 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 309
+[11-Apr-2016 11:14:05 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 309
+[11-Apr-2016 11:18:11 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:18:13 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:25:36 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:26:19 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:26:20 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:27:30 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:27:32 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:29:44 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:29:48 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 310
+[11-Apr-2016 11:32:00 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 305
+[11-Apr-2016 11:32:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trekdaddy/public_html/appdata/index.php on line 305
+[11-Apr-2016 11:32:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, string given in /home/trekdaddy/public_html/appdata/index.php on line 311
+[11-Apr-2016 11:36:07 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 311
+[11-Apr-2016 11:37:41 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 311
+[11-Apr-2016 11:37:42 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 311
+[11-Apr-2016 11:39:09 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 311
+[13-Apr-2016 10:09:43 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 307
+[13-Apr-2016 10:10:22 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 307
+[13-Apr-2016 10:25:19 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 224
+[13-Apr-2016 10:25:22 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 224
+[13-Apr-2016 10:29:50 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 224
+[13-Apr-2016 10:48:01 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 315
+[13-Apr-2016 11:09:52 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 238
+[13-Apr-2016 11:10:50 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 238
+[13-Apr-2016 11:10:52 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 238
+[13-Apr-2016 11:12:10 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 233
+[13-Apr-2016 11:17:28 UTC] PHP Notice:  Undefined index: cnt in /home/trekdaddy/public_html/appdata/index.php on line 246
+[13-Apr-2016 11:17:30 UTC] PHP Notice:  Undefined index: cnt in /home/trekdaddy/public_html/appdata/index.php on line 246
+[13-Apr-2016 12:15:21 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 250
+[13-Apr-2016 12:42:13 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 248
+[13-Apr-2016 12:43:28 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 368
+[13-Apr-2016 12:43:34 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 368
+[13-Apr-2016 12:43:38 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 248
+[13-Apr-2016 12:46:09 UTC] PHP Notice:  Undefined variable: result in /home/trekdaddy/public_html/appdata/index.php on line 236
+[13-Apr-2016 12:46:09 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 236
+[13-Apr-2016 12:48:27 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 247
+[13-Apr-2016 12:48:29 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 247
+[13-Apr-2016 12:48:34 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 247
+[13-Apr-2016 12:49:46 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 248
+[13-Apr-2016 12:49:55 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 248
+[13-Apr-2016 12:53:34 UTC] PHP Notice:  Undefined variable: row2 in /home/trekdaddy/public_html/appdata/index.php on line 264
+[13-Apr-2016 12:54:56 UTC] PHP Notice:  Undefined index: group_id in /home/trekdaddy/public_html/appdata/index.php on line 265
+[13-Apr-2016 12:58:18 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 367
+[13-Apr-2016 13:11:25 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 367
+[13-Apr-2016 13:13:39 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 367
+[13-Apr-2016 13:16:33 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 367
+[13-Apr-2016 13:36:49 UTC] PHP Notice:  Undefined index: trans in /home/trekdaddy/public_html/appdata/index.php on line 375
+[13-Apr-2016 13:47:36 UTC] PHP Notice:  Undefined index: gid in /home/trekdaddy/public_html/appdata/index.php on line 372
+[13-Apr-2016 13:47:36 UTC] PHP Notice:  Undefined index: dest in /home/trekdaddy/public_html/appdata/index.php on line 373
+[13-Apr-2016 13:47:36 UTC] PHP Notice:  Undefined index: cdate in /home/trekdaddy/public_html/appdata/index.php on line 374
+[13-Apr-2016 13:47:36 UTC] PHP Notice:  Undefined index: trans in /home/trekdaddy/public_html/appdata/index.php on line 375
+[13-Apr-2016 13:47:36 UTC] PHP Notice:  Undefined index: cnum in /home/trekdaddy/public_html/appdata/index.php on line 376
+[13-Apr-2016 13:47:36 UTC] PHP Notice:  Undefined index: res in /home/trekdaddy/public_html/appdata/index.php on line 377
+[13-Apr-2016 13:50:34 UTC] PHP Notice:  Undefined index: trans in /home/trekdaddy/public_html/appdata/index.php on line 376
+[03-May-2016 11:15:02 UTC] PHP Fatal error:  Call to undefined function write_to_us() in /home/trekdaddy/public_html/appdata/index.php on line 42
+[03-May-2016 11:27:30 UTC] PHP Notice:  Undefined variable: sql in /home/trekdaddy/public_html/appdata/index.php on line 480
+[03-May-2016 11:27:30 UTC] PHP Warning:  mysqli::query(): Empty query in /home/trekdaddy/public_html/appdata/index.php on line 480
+[16-May-2016 06:49:54 UTC] PHP Fatal error:  Call to undefined function Edit_UserProfile`() in /home/trekdaddy/public_html/appdata/index.php on line 42
+[16-May-2016 06:50:14 UTC] PHP Fatal error:  Call to undefined function Edit_UserProfile`() in /home/trekdaddy/public_html/appdata/index.php on line 42
+[16-May-2016 06:50:52 UTC] PHP Fatal error:  Call to undefined function Edit_UserProfile`() in /home/trekdaddy/public_html/appdata/index.php on line 42
+[16-May-2016 07:05:46 UTC] PHP Notice:  Undefined variable: _SESSION in /home/trekdaddy/public_html/appdata/index.php on line 537
+[16-May-2016 07:05:46 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 538
+[16-May-2016 07:05:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trekdaddy/public_html/appdata/index.php on line 538
+[16-May-2016 07:05:46 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 540
+[16-May-2016 07:06:05 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 538
+[16-May-2016 07:06:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trekdaddy/public_html/appdata/index.php on line 538
+[16-May-2016 07:06:05 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 540
+[23-May-2016 11:35:03 UTC] PHP Notice:  Undefined variable: group_id in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:35:03 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:35:03 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 378
+[23-May-2016 11:35:03 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 378
+[23-May-2016 11:35:55 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 382
+[23-May-2016 11:35:55 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 382
+[23-May-2016 11:35:56 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 382
+[23-May-2016 11:35:56 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 382
+[23-May-2016 11:47:05 UTC] PHP Notice:  Undefined variable: group_id in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:47:05 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:47:05 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 378
+[23-May-2016 11:47:05 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 378
+[23-May-2016 11:48:08 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:08 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:08 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:08 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:08 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:09 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:09 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:09 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:09 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:10 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:10 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:10 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:10 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:10 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:11 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:11 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:11 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:11 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:11 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:12 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:12 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:12 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:12 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:12 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:13 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:13 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:13 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:13 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:13 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:14 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:14 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:14 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:14 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:14 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:15 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:15 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:15 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:15 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:15 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:15 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:15 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:15 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:15 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:15 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:33 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:33 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:33 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:33 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:33 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:34 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:48:34 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:34 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:48:34 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:48:34 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:02 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:02 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:02 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:02 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:02 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:26 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:26 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:26 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:26 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:26 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:27 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:27 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:27 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:27 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:27 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:28 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:28 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:28 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:28 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:28 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:29 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:29 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:29 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:29 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:29 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:29 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:29 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:29 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:29 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:29 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:30 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:30 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:30 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:30 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:30 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:30 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:30 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:30 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:30 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:30 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:31 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:31 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:31 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:31 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:31 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:32 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:32 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:32 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:32 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:32 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:32 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:32 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:32 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:32 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:32 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:33 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:33 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:33 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:33 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:33 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:34 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:34 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:34 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:34 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:34 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:35 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:35 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:35 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:35 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:35 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:35 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:35 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:35 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:35 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:35 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:36 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:36 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:36 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:36 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:36 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:37 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:37 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:37 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:37 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:37 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:58 UTC] PHP Notice:  Undefined variable: end_level in /home/trekdaddy/public_html/appdata/index.php on line 375
+[23-May-2016 11:49:58 UTC] PHP Notice:  Undefined variable: diff_level in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:58 UTC] PHP Notice:  Undefined variable: row in /home/trekdaddy/public_html/appdata/index.php on line 376
+[23-May-2016 11:49:58 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:49:58 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 377
+[23-May-2016 11:50:45 UTC] PHP Notice:  Undefined variable: con in /home/trekdaddy/public_html/appdata/index.php on line 398
+[23-May-2016 11:50:45 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 398
+[24-May-2016 09:02:57 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 295
+[24-May-2016 12:33:21 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 285
+[24-May-2016 12:34:02 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/appdata/index.php on line 285
+[24-May-2016 12:34:23 UTC] PHP Notice:  Undefined variable: maxgid in /home/trekdaddy/public_html/appdata/index.php on line 289
+[24-May-2016 13:08:28 UTC] PHP Notice:  Undefined variable: rowmgid in /home/trekdaddy/public_html/appdata/index.php on line 561
+[24-May-2016 13:08:50 UTC] PHP Notice:  Undefined index: maxgid in /home/trekdaddy/public_html/appdata/index.php on line 561
+[24-May-2016 13:08:52 UTC] PHP Notice:  Undefined index: maxgid in /home/trekdaddy/public_html/appdata/index.php on line 561
+[24-May-2016 13:08:53 UTC] PHP Notice:  Undefined index: maxgid in /home/trekdaddy/public_html/appdata/index.php on line 561
+[24-May-2016 13:08:54 UTC] PHP Notice:  Undefined index: maxgid in /home/trekdaddy/public_html/appdata/index.php on line 561
+[24-May-2016 13:19:20 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:19:20 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:19:56 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:19:56 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:19:58 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:19:58 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:20:05 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:20:05 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:20:06 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:20:06 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:20:07 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:20:07 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:20:08 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:20:08 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:29 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 427
+[24-May-2016 13:28:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 428
+[24-May-2016 13:50:48 UTC] PHP Notice:  Undefined variable: gpid in /home/trekdaddy/public_html/appdata/index.php on line 569
+[24-May-2016 13:50:48 UTC] PHP Notice:  Undefined variable: gpid in /home/trekdaddy/public_html/appdata/index.php on line 569
+[24-May-2016 13:50:48 UTC] PHP Notice:  Undefined variable: gpid in /home/trekdaddy/public_html/appdata/index.php on line 569
+[24-May-2016 13:50:48 UTC] PHP Notice:  Undefined variable: gpid in /home/trekdaddy/public_html/appdata/index.php on line 569
+[24-May-2016 13:50:48 UTC] PHP Notice:  Undefined variable: gpid in /home/trekdaddy/public_html/appdata/index.php on line 569
+[24-May-2016 13:51:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 433
+[24-May-2016 13:51:32 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 434
+[24-May-2016 13:52:41 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 433
+[24-May-2016 13:52:41 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 434
+[24-May-2016 13:52:42 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 433
+[24-May-2016 13:52:42 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 434
+[24-May-2016 13:52:43 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 433
+[24-May-2016 13:52:43 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 434
+[24-May-2016 13:52:45 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 436
+[24-May-2016 13:52:45 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 437
+[24-May-2016 13:52:46 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 436
+[24-May-2016 13:52:46 UTC] PHP Warning:  Division by zero in /home/trekdaddy/public_html/appdata/index.php on line 437
+[25-May-2016 11:38:36 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:38:36 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:38:36 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:38:36 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:38:41 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:38:41 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:38:41 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:38:41 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:39:29 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:39:29 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:39:29 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:39:29 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:39:38 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:39:38 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:39:38 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:39:38 UTC] PHP Notice:  Undefined index: gender in /home/trekdaddy/public_html/appdata/index.php on line 475
+[25-May-2016 11:41:19 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 463
+[25-May-2016 11:41:22 UTC] PHP Notice:  Trying to get property of non-object in /home/trekdaddy/public_html/appdata/index.php on line 463
+[25-May-2016 12:38:49 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 486
+[25-May-2016 12:38:53 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 486
+[25-May-2016 13:23:49 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 486
+[25-May-2016 13:23:56 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 486
+[25-May-2016 13:23:59 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 486
+[25-May-2016 13:24:26 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 486
+[28-May-2016 14:31:12 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 487
+[28-May-2016 14:34:36 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:34:42 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:34:52 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:34:55 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 489
+[28-May-2016 14:34:56 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 489
+[28-May-2016 14:35:19 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:36:49 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:38:18 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 489
+[28-May-2016 14:38:21 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 489
+[28-May-2016 14:38:56 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 487
+[28-May-2016 14:39:04 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 487
+[28-May-2016 14:41:07 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:42:14 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:42:36 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:42:37 UTC] PHP Fatal error:  Cannot use string offset as an array in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'des' in /home/trekdaddy/public_html/appdata/index.php on line 488
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'member_count' in /home/trekdaddy/public_html/appdata/index.php on line 489
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'group_id' in /home/trekdaddy/public_html/appdata/index.php on line 490
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'destination' in /home/trekdaddy/public_html/appdata/index.php on line 491
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'date' in /home/trekdaddy/public_html/appdata/index.php on line 492
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'contact' in /home/trekdaddy/public_html/appdata/index.php on line 493
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'result' in /home/trekdaddy/public_html/appdata/index.php on line 494
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'member' in /home/trekdaddy/public_html/appdata/index.php on line 495
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'emails' in /home/trekdaddy/public_html/appdata/index.php on line 496
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'genders' in /home/trekdaddy/public_html/appdata/index.php on line 497
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'ages' in /home/trekdaddy/public_html/appdata/index.php on line 498
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'trektype' in /home/trekdaddy/public_html/appdata/index.php on line 499
+[28-May-2016 14:43:44 UTC] PHP Warning:  Illegal string offset 'grouptype' in /home/trekdaddy/public_html/appdata/index.php on line 500
+[31-May-2016 09:05:35 UTC] PHP Notice:  Undefined variable: json_data in /home/trekdaddy/public_html/appdata/index.php on line 510
+[31-May-2016 09:05:38 UTC] PHP Notice:  Undefined variable: json_data in /home/trekdaddy/public_html/appdata/index.php on line 510
+[31-May-2016 09:07:28 UTC] PHP Notice:  Undefined variable: json_data in /home/trekdaddy/public_html/appdata/index.php on line 510
+[31-May-2016 09:08:46 UTC] PHP Notice:  Undefined variable: json_data in /home/trekdaddy/public_html/appdata/index.php on line 510

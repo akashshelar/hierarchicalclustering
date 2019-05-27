@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	
+
+	 <!-- BootstrapValidator CSS -->
+      <link href="css/bootstrapValidator.min.css" rel="stylesheet"/>
+	
+    <!-- jQuery and Bootstrap JS -->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		
+    <!-- BootstrapValidator -->
+    <script src="js/bootstrapValidator.min.js" type="text/javascript"></script>
+   
+  </head>
+
+<body>
+  
+<!-- NavBar Top Begins -->
+    <div class="navbar navbar-inverse navbar-fixed-top"role="navigation">
+		<div class="container clearfix">
+			<div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			    </button>
+		        <img src="img/Incredible_Final_Small.jpg" class="img-rounded" />
+			</div>
+
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-left">
+						    	<li><a href="index.html">Home</a></li>
+						    	<li><a href="#AboutUs" data-toggle="modal">About Us</a></li>
+								<li><a href="logout.php">Log Out</a></li>				
+						</ul>
+					</div>
+
+		</div>
+	</div>
+<!-- NavBar Top Ends -->
+
+
+
+
+<div class="container">
+<div class="panel-body">
+	<form name="Ratingform" method="POST"  action="#" class="form_rightl" role="form" >
+	&nbsp;
+	<h4 align="center"> Rate and Review </h4>
+	  		<div class="form-group" >
+	    				<label for="desination" class="col-lg-2 control-label">Select Destination</label>
+						
+						<div class="dropdown col-lg-6">
+	    					<button class="btn btn-default dropdown-toggle" type="button"  data-toggle="dropdown">Destination
+	    					<span class="caret"></span></button>
+	    				
+							<ul class="dropdown-menu" role="menu">
+	      						<li role="presentation"><a role="menuitem"  href="#">Sinhagad </a></li>
+	      						<li role="presentation"><a role="menuitem"  href="#">Ratangad </a></li>
+	    					</ul>	
+					</div>
+			</div>
+<br />
+<br />			
+		<div class="form-group" >
+	    				<label for="rating" class="col-lg-2 control-label">Give rating</label>
+						
+						<div class="dropdown col-lg-6">
+	    					<button class="btn btn-default dropdown-toggle" type="button"  data-toggle="dropdown">Rating
+	    					<span class="caret"></span></button>
+	    				
+							<ul class="dropdown-menu" role="menu">
+	      						<li role="presentation"><a role="menuitem"  href="#">1 </a></li>
+	      						<li role="presentation"><a role="menuitem"  href="#">2 </a></li>
+							<li role="presentation"><a role="menuitem"  href="#">3 </a></li>
+							<li role="presentation"><a role="menuitem"  href="#">4 </a></li>
+							<li role="presentation"><a role="menuitem"  href="#">5 </a></li>
+	    					</ul>	
+					</div>
+			</div>
+		
+
+<br />
+<br />		
+		<div class="form-group">
+    				<label for="inputReview" class="col-sm-2 control-label">Review</label>
+    				<div class="col-sm-4">
+       				<input type="text" class="form-control"  name="review" placeholder="Write a review" required>
+    				</div>
+  			</div>	
+<br />
+<br />																	
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+    						<button type="submit" align="center" class="btn btn-success"  id="submit">Submit</button>
+  			</div>
+				
+	</form>
+</div>
+
+
+<!-- NavBar Bottom -->
+<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+	<div class="container">
+		<p class="navbar-brand col-xs-4">TrekSocial &copy </p>
+		<div class="navbar-text pull-right" float:left>		
+			<a href="https://www.facebook.com/login/" target="blank"><i class="fa fa-facebook-square fa-2x"></i> </a>
+			<a href="https://twitter.com/login" target="blank"><i class="fa fa-twitter-square fa-2x"></i> </a>
+			<a href="https://plus.google.com/" target="blank"><i class="fa fa-google-plus-square fa-2x"></i> </a>
+		</div>
+	</div>
+</div>
+<!-- NavBar Bottom Ends -->
+
+<!-- About Us Modal -->
+<div class="modal fade" id="AboutUs" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		
+		     <div class="modal-header">
+		     <h4 align="center">About Us</h4>
+		     </div>
+				
+				<div class="modal-body">
+				<p>We're organising trek and adventure tours</p>
+				</div>
+		     		
+			<div class="modal-footer">
+		    <a href="user_page.html" class="btn btn-success" data-dimiss="modal">Hell Yeah</a>
+		    </div>
+		</div>
+	</div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="js/bootstrap.min.js"></script> -->
+  </body>
+
+</html>

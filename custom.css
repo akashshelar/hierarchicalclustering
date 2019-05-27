@@ -1,0 +1,34 @@
+.navbar-text>a {
+color:inherit;
+text decoration:none;
+padding-right:10px;
+}
+
+body{
+padding-top:100px;
+padding-bottom:100px;
+}	
+
+.panorama {
+position:relative;
+padding-bottom:33.33%;
+height:0;
+overflow:hidden;
+float:right;
+}
+
+.panorama iframe{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+float:left;
+}
+
+
+.form_right  .form-group{
+  margin-right: -15px;
+  margin-left: -15px;
+	float:right;
+}

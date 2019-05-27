@@ -26,12 +26,16 @@ if(!$con)
 	{
 		margin-bottom:100px;
 	}
+	.margin_class{
+		margin-top: 100px !important;
+		margin-bottom: 100px !important;
+	}
     </style>
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 <div class="container clearfix">
-<div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button><a href="index.php"><img class="img-rounded" src="img/TrekSocial_Trial.jpg" /> </a></div>
+<div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button><a href="index.php"><img class="img-rounded" src="../img/TrekSocial_Trial.jpg" /> </a></div>
 
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-left">
@@ -87,9 +91,9 @@ function openDropDown()
 <?php } ?>
 </div>
 </div>
-<div class="<?php echo $widthclass; ?> container col-lg-9">
+<div class="margin_class container col-lg-9">
 <div class="row">
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/alang.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/alang.jpg" /> </a>
 
 <h3>Alang Fort</h3>
 
@@ -101,7 +105,7 @@ Distance from Mumbai: 145 km approx.<br />
 Distance from Pune: 175 km approx.</p>
 <a class="btn btn-success" data-toggle="modal" href="#AlangFortInfo">Know More..</a></div>
 
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/madan.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/madan.jpg" /> </a>
 
 <h3>Madangad Fort</h3>
 
@@ -113,7 +117,7 @@ Distance from Mumbai: 145 km approx.<br />
 Distance from Pune: 175 km approx.</p>
 <a class="btn btn-success" data-toggle="modal" href="#MadanFortInfo">Know More..</a></div>
 
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/kulang.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/kulang.jpg" /> </a>
 
 <h3>Kulang Fort</h3>
 
@@ -128,7 +132,7 @@ Distance from Pune: 175 km approx.</p>
 &nbsp;
 
 <div class="row">
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/sinhagad.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/sinhagad.jpg" /> </a>
 
 <h3>Sinhagad Fort</h3>
 
@@ -140,7 +144,7 @@ Distance from Mumbai: 180 km approx.<br />
 Distance from Pune: 32 km approx.</p>
 <a class="btn btn-success" data-toggle="modal" href="#SinhagadFortInfo">Know More..</a></div>
 
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/ratangad.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/ratangad.jpg" /> </a>
 
 <h3>Ratangad Fort</h3>
 
@@ -152,7 +156,7 @@ Distance from Mumbai: 160 km approx.<br />
 Distance from Pune: 190 km approx.</p>
 <a class="btn btn-success" data-toggle="modal" href="#RatangadFortInfo">Know More..</a></div>
 
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/rajgad.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/rajgad.jpg" /> </a>
 
 <h3>Rajgad Fort</h3>
 
@@ -167,7 +171,7 @@ Distance from Pune: 51.7 km approx.</p>
 &nbsp;
 
 <div class="row">
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/torna.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/torna.jpg" /> </a>
 
 <h3>Torna Fort</h3>
 
@@ -179,7 +183,7 @@ Distance from Mumbai: 212.6 km approx.<br />
 Distance from Pune: 51 km approx.</p>
 <a class="btn btn-success" data-toggle="modal" href="#TornaFortInfo">Know More..</a></div>
 
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/raigad.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/raigad.jpg" /> </a>
 
 <h3>Raigad Fort</h3>
 
@@ -191,7 +195,7 @@ Distance from Mumbai: 169 km approx.<br />
 Distance from Pune: 131.4 km approx.</p>
 <a class="btn btn-success" data-toggle="modal" href="#RaigadFortInfo">Know More..</a></div>
 
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/harishchandragad.jpeg"/> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/harishchandragad.jpeg"/> </a>
 
 <h3>Harishchandragad Fort</h3>
 
@@ -206,7 +210,7 @@ Distance from Pune: 174.8 km approx.</p>
 &nbsp;
 
 <div class="row">
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/panhala.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/panhala.jpg" /> </a>
 
 <h3>Panhala Fort</h3>
 
@@ -218,7 +222,7 @@ Distance from Mumbai: 382.9 km approx.<br />
 Distance from Pune: 240 km approx.</p>
 <a class="btn btn-success" data-toggle="modal" href="#PanhalaFortInfo">Know More..</a></div>
 
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/pratapgad.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/pratapgad.jpg" /> </a>
 
 <h3>Pratapgad Fort</h3>
 
@@ -230,7 +234,7 @@ Distance from Mumbai: 192.1 km approx.<br />
 Distance from Pune: 163.3 km approx.</p>
 <a class="btn btn-success" data-toggle="modal" href="#PratapgadFortInfo">Know More..</a></div>
 
-<div class="col-md-4"><a class="thumbnail" href="#"><img src="img/kalsubai.jpg" /> </a>
+<div class="col-md-4"><a class="thumbnail" href="#"><img src="../img/kalsubai.jpg" /> </a>
 
 <h3>Kalsubai Peak</h3>
 

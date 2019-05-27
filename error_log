@@ -1,3 +1,9 @@
-[26-May-2016 05:15:59 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/rpc/rpc_getDestinationForm.php on line 14
-[26-May-2016 05:16:26 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/rpc/rpc_getDestinationForm.php on line 14
-[26-May-2016 05:17:42 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/rpc/rpc_getDestinationForm.php on line 14
+[27-May-2016 06:49:23 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/trekdaddy/public_html/admin/ViewFeedback.php on line 88
+[27-May-2016 07:08:40 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/ViewFeedback.php on line 120
+[27-May-2016 08:56:42 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 125
+[27-May-2016 09:02:14 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 133
+[27-May-2016 09:03:36 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 133
+[27-May-2016 09:03:38 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 133
+[27-May-2016 09:03:39 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/trekdaddy/public_html/admin/EditGrooup.php on line 133
+[27-May-2016 10:40:44 UTC] PHP Fatal error:  Call to undefined function back() in /home/trekdaddy/public_html/admin/group_details.php on line 16
+[28-May-2016 13:40:25 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/trekdaddy/public_html/admin/group_details.php on line 153

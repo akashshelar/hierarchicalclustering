@@ -1,79 +1,25 @@
-<?php
+<?php 
 session_start();
 $con=mysqli_connect('localhost','Lifestandate','TreckN@zional7'); 
 mysqli_select_db($con,'TrekSocialDB');
-
 if(!$con)
 {
 	die("connection failed" . mysqli_error($con));
 }
-if(isset($_SESSION['sess_user']) && $_SESSION['sess_user'] != '')
-{
-	header('Location:UserPreference.php');
-}
 $message = '';
 if(isset($_GET['msg']))
 {
-	if($_GET['msg'] == 1)
+	if($_GET['msg'] == 2)
 	{
 		$message = '<div class="alert alert-danger fade in">
-						<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-						Invalid <strong>Username</strong> or <strong>Password</strong>.
-					</div>';
-	}
-	else if($_GET['msg'] == 2)
-	{
-		$message = '<div class="alert alert-danger fade in">
-						<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-						This <strong>Email</strong> address is not valid.
-					</div>';
-	}
-	else if($_GET['msg'] == 3)
-	{
-		$message = '<div class="alert alert-success fade in">
-						<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-						Your password is sent to your email adress.
-					</div>';
-	}
-	else if($_GET['msg'] == 4)
-	{
-		$message = '<div class="alert alert-danger fade in">
-						<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-						<strong>Failed to send Mail</strong>.
-					</div>';
-	}
-	else if($_GET['msg'] == 5)
-	{
-		$message = '<div class="alert alert-success fade in">
-						<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-						Account created successfully.<br>
-						Please <strong>login</strong> to access your account.
-					</div>';
-	}
-	else if($_GET['msg'] == 6)
-	{
-		$message = '<div class="alert alert-danger fade in">
-						<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-						This <strong>email</strong> is already exists.<br>
-						Please try another one.
-					</div>';
-	}
-	else if($_GET['msg'] == 7)
-	{
-		$message = '<div class="alert alert-success fade in">
-						<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-						Your account has been deactivated.
-					</div>';
-	}
-	else if($_GET['msg'] == 8)
-	{
-		$message = '<div class="alert alert-danger fade in">
-						<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-						Password must be at least 8 characters long.
-					</div>';
+			<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+			Invalid <strong>Username</strong> Or <strong>Password</strong>.
+		</div>';
 	}
 }
+
 ?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -85,20 +31,20 @@ if(isset($_GET['msg']))
 
     <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/custom.css" rel="stylesheet">
-		<link href="css/basic-template.css" rel="stylesheet" />
+		<link href="../css/custom.css" rel="stylesheet">
+		<link href="../css/basic-template.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <!-- BootstrapValidator CSS -->
-      <link href="css/bootstrapValidator.min.css" rel="stylesheet"/>
+      <link href="../css/bootstrapValidator.min.css" rel="stylesheet"/>
 	
     <!-- jQuery and Bootstrap JS -->
-		<script src="js/jquery.min.js" type="text/javascript"></script>
-		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="../js/jquery.min.js" type="text/javascript"></script>
+		<script src="../js/bootstrap.min.js" type="text/javascript"></script>
 		
     <!-- BootstrapValidator -->
-       <script src="js/bootstrapValidator.min.js" type="text/javascript"></script>
-    	<script src="js/custom.js" type="text/javascript"></script>
+       <script src="../js/bootstrapValidator.min.js" type="text/javascript"></script>
+    
   </head>
   
 	<body>
@@ -113,7 +59,7 @@ if(isset($_GET['msg']))
 		    </button>
 			
 		<a href="index.php">
-			<img class="img-rounded" src="img/TrekSocial_Trial.jpg" />
+			<img class="img-rounded" src="../img/TrekSocial_Trial.jpg" />
 		</a>
 		</div>
 
@@ -128,23 +74,17 @@ if(isset($_GET['msg']))
 		</div>
 
 <div class="container">
-	<?php
-	if($message != '')
-	{
-		echo $message;
-	}
-	?>
-	
+	<center><?php if($message != ''){ echo $message; }?></center>
 	<div class="jumbotron text-center">
 		<h1>TrekSocial</h1>
 		<p>Reconnect with yourself</p>
 		<a class="btn btn-success" data-toggle="modal" href="#Login">Login</a> 
-		<a class="btn btn-success" data-toggle="modal" href="#SignUp">SignUp</a>
+		<!--<a class="btn btn-success" data-toggle="modal" href="#SignUp">SignUp</a>-->
 	</div>
 
 	<div class="row">
 		<div class="col-md-4">
-		<a class="thumbnail" href="#"><img src="img/10_new.jpg" /> 
+		<a class="thumbnail" href="#"><img src="../img/10_new.jpg" /> 
 		</a>
 			<h3>Top Destinations</h3>
 			<p>We have handpicked the best trekking locations for your thrilling and memorable adventure that you can cherish for a lifetime.</p>
@@ -153,7 +93,7 @@ if(isset($_GET['msg']))
 
 		<div class="col-md-4">
 		    <a href="#" class="thumbnail">
-			<img src="img/2_new.jpg"></img>
+			<img src="../img/2_new.jpg"></img>
 		     </a>
 		    <h3> Easy Travel</h3>
 		    <p> We have collaborated with top travel companies to make your travelling experiences to these trekking location comfortable and stress free.</p>
@@ -162,7 +102,7 @@ if(isset($_GET['msg']))
 
 		<div class="col-md-4">
 		    <a href="#" class="thumbnail">
-			<img src="img/9_new.jpg"></img>
+			<img src="../img/9_new.jpg"></img>
 		    </a>
 		    <h3> World Class Instructors</h3>
 		    <p>We provide well trained and certified trek instructors and guides on our treks, who ensure that you have an impeccable trekking experience.</p>
@@ -245,14 +185,6 @@ if(isset($_GET['msg']))
 		<div class="col-sm-offset-2 col-sm-8">
 			<div class="checkbox">
 			<label><input type="checkbox" /> Remember me</label>
-			</div>
-		</div>
-	</div>
-    
-    <div class="form-group">
-		<div class="col-sm-offset-2 col-sm-8">
-			<div class="checkbox">
-				<a  data-toggle="modal" data-dismiss="modal" href="#Forgot">Forgot password</a>
 			</div>
 		</div>
 	</div>
@@ -341,47 +273,8 @@ if(isset($_GET['msg']))
 		
 <!--SignUp Form ends -->
 
-
 		<div class="modal-footer">
 			<button class="btn btn-success" type="submit">SignUp</button>
-		</div>
-	</form>
-	</div>
-	
-</div>
-</div>
-</div>
-
-<!--Forgot password form -->
-<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="Forgot" role="dialog" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-
-	<div class="modal-header">
-		<button class="close" data-dismiss="modal" type="button">
-			<span aria-hidden="true">&times;</span> 
-			<span class="sr-only">Close</span>
-		</button>
-		<h4 align="center" class="modal-title" id="forgot_lable">Forgot password</h4>
-	</div>
-	
-<!--SignUp Form begins -->
-
-	<div class="modal-body">
-	<form action="forgot_pwd.php" class="form-horizontal" id="SForm" method="POST" role="form">
-		
-		<div class="form-group">
-			<label class="col-sm-2 control-label" for="inputEmail">Email</label>
-			<div class="col-sm-10">
-				<input class="form-control" name="email" placeholder="Email" type="text" />
-			</div>
-		</div>
-
-<!-- forgot password form ends-->
-
-
-		<div class="modal-footer">
-			<button class="btn btn-success" type="submit">Submit</button>
 		</div>
 	</form>
 	</div>
@@ -471,7 +364,7 @@ if(isset($_GET['msg']))
 					stringLength : {
 							min: 2,
 							max: 2,
-							message: "Enter age in 2 charecters."
+							message: "Enter valid age"
 						}
 					 }
 				},
@@ -504,7 +397,7 @@ if(isset($_GET['msg']))
 							message : "Password required"
 						},
 						stringLength : {
-							min: 8,
+							min: 5,
 							max: 10,
 							message: "Password must be at least 8 characters long"
 						}, 
@@ -524,7 +417,7 @@ if(isset($_GET['msg']))
 							message : "Password required"
 						},
 						stringLength : {
-							min: 8,
+							min: 5,
 							max: 10,
 							message: "Password must be at least 8 characters long"
 						}, 

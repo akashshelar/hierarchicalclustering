@@ -12,32 +12,6 @@ if(!isset($_SESSION['sess_user']) && $_SESSION['sess_user'] == '')
 	header('Location:index.php');
 }
 $message = '';
-if(isset($_POST['leave_group']))
-{
-	if(isset($_REQUEST['email'])){$email = $_REQUEST['email'];}else{$email = '';};
-	if(isset($_REQUEST['group_id'])){$g_id = $_REQUEST['group_id'];}else{$g_id = '';};
-	
-	$sql = "Select gp.groups_preference_id as gid from groups_preference gp
-			left join preference p on p.preference_id = gp.preference_id
-			where p.email = '".$email."' and gp.groups_id = $g_id";
-	//exit($sql);
-	$resgid = $con->query($sql);
-	//$rowgid = $resgid->fetch_array(MYSQLI_ASSOC);
-	while($rowd = $resgid->fetch_assoc()) 
-	{
-		$updp = "update groups_preference set is_left = 1 where groups_preference_id = '".$rowd['gid']."'";
-		$resupdp = $con->query($updp);
-		if($resupdp)
-		{
-			header('Location:Groups.php?left=1');
-		}
-		else
-		{
-			$message = "Failed to leave a group.";	
-		}
-	}
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -45,18 +19,20 @@ if(isset($_POST['leave_group']))
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
-	<meta content="width=device-width, initial-scale=1" name="viewport" /><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Trek Social</title>
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" /><!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/custom.css" rel="stylesheet" />
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" /><!-- BootstrapValidator CSS -->
-	<link href="css/bootstrapValidator.min.css" rel="stylesheet" /><!-- jQuery and Bootstrap JS --><script src="js/jquery.min.js" type="text/javascript"></script><script src="js/bootstrap.min.js" type="text/javascript"></script><!-- BootstrapValidator --><script src="js/bootstrapValidator.min.js" type="text/javascript"></script><script src="js/custom.js" type="text/javascript"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+	<!-- Bootstrap -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet" />
+	<link href="../css/custom.css" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- BootstrapValidator CSS -->
+	<link href="../css/bootstrapValidator.min.css" rel="stylesheet" />
+	<!-- jQuery and Bootstrap JS -->
+	<script src="../js/jquery.min.js" type="text/javascript"></script><script src="../js/bootstrap.min.js" type="text/javascript"></script><!-- BootstrapValidator -->
+	<script src="../js/bootstrapValidator.min.js" type="text/javascript"></script>
 <style>
-.col-lg-9
-{
-	margin-bottom:100px;
-}
 .table_tag
 {
 	border:1px solid black; 
@@ -78,65 +54,59 @@ if(isset($_POST['leave_group']))
 <body><!-- NavBar Top Begins -->
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 <div class="container clearfix">
-<div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button><img class="img-rounded" src="img/TrekSocial_Trial.jpg" /></div>
+<div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button><img class="img-rounded" src="../img/TrekSocial_Trial.jpg" /></div>
 
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav navbar-left">
-	<li><a href="index.php">Home</a></li>
-	<li><a data-toggle="modal" href="#AboutUs">About Us</a></li>
-	<li><a href="logout.php">Log Out</a></li>
+	<li><a href="MainMenu.php">Home</a></li>
+    <li><a data-toggle="modal" href="#AboutUs">About Us</a></li>
+    <li><a href="logout.php">Log Out</a></li>
 </ul>
 </div>
 </div>
 </div>
 <!-- NavBar Top Ends -->
 <div style="height:100%;">
-<div class="col-lg-3">
-<div class="jumbotron">
+
 <style>
+.col-lg-9 {
+    width: 75%;
+    margin-bottom: 100px;
+}
 .show_menu {
 display: block !important;
 }
 .submenu {
 display: none;
 }
-</style>
-<ul type="square">
-	<li><font color="Blue" font="" size="4"><a href="UserPreference.php" target="_top">Set Preferences</a></font></li>
-	<li><font color="Blue" font="" size="4"><a href="ViewDestinations.php" target="_top">View destinations</a></font></li>
-	<li><font color="Blue" font="" size="4"><a href="Groups.php" target="_top">View your groups</a></font></li>
-	<li><font color="Blue" font="" size="4"><a href="Rate_Review.php" target="_top">Rate and Review Destinations</a></font></li>
-	<li><font color="Blue" font="" size="4"><a href="Suggestdestination.php" target="_top">Suggest New Destinations</a></font></li>
-	<li><font color="Blue" font="" size="4"><a href="feedback.php" target="_top">Write to us</a></font></li>
-	<li onclick='openDropDown()'><font color="Blue" font="" size="4"><a href="javascript:void(0);" target="_top">Settings</a></font>
-    	<ul id='drpdwn' class='submenu'>
-        	<li><font color="Blue" font="" size="4"><a href="Editprofile.php" target="_top">Edit Profile</a></font></li>
-            <li><font color="Blue" font="" size="4"><a href="ChangePassword.php" target="_top">Change Password</a></font></li>
-            <li onClick="Deactivate_account('<?php echo $_SESSION['sess_user']; ?>')"><font color="Blue" font="" size="4"><a href="javascript:void(0);" target="_top">Deactivate Account</a></font></li>
+</style><div class="col-lg-3">
+      <div class="jumbotron">
+    <ul type="square">
+          <li onclick='openDropDown()'><font color="Blue" font="" size="4"><a href="javascript:void(0);" target="_top">Edit Destinations</a></font>
+        <ul id='drpdwn' class='submenu'>
+              <li><font color="Blue" font="" size="4"><a href="AddDestination.php" target="_top">Add Destination</a></font></li>
+              <li><font color="Blue" font="" size="4"><a href="DeleteDestination.php" target="_top">Delete Destination</a></font></li>
+              <li><font color="Blue" font="" size="4"><a href="UpdateDestination.php" target="_top">Update Destination</a></font></li>
+            </ul>
+      </li>
+          <li><font color="Blue" font="" size="4"><a href="EditGrooup.php" target="_top">Edit Groups</a></font></li>
+          <li><font color="Blue" font="" size="4"><a href="ViewFeedback.php" target="_top">View Feedback</a></font></li>
+          <li><font color="Blue" font="" size="4"><a href="Suggesions.php" target="_top">View suggested destinatios</a></font></li>
         </ul>
-    </li>
-	
-</ul>
-<script>
-function openDropDown()
-{
-	$('#drpdwn').toggleClass('show_menu');
-} 
-</script>
-</div>
-</div>
+  </div>
+    </div>
 
 <div class="col-lg-9">
 <center><strong>Group Details</strong></center>
 <div class="panel-body">
 <?php
 $group_id = $_GET["id"];
-$sql = "SELECT distinct(g.group_id) as gid,g.destination as dest,g.date as cdate,g.contact as cnum  ,g.result as res,
-			p.gender, p.trek_type,p.district as p_dist,p.month
+$sql = "SELECT distinct(g.group_id) as gid,p.district as p_dist,g.destination as dest,g.date as cdate,g.contact as cnum  ,g.result as res,
+			p.gender, p.trek_type
 			FROM groups g 
 			LEFT JOIN groups_preference gp ON g.group_id = gp.groups_id 
 			LEFT JOIN preference p ON p.preference_id = gp.preference_id 
-			WHERE p.email =  '".$_SESSION['sess_user']."' and g.group_id = $group_id";
+			WHERE g.group_id = $group_id";
 
 $result = $con->query($sql);
 if ($result->num_rows > 0) 
@@ -205,7 +175,7 @@ if ($result->num_rows > 0)
                 <td>City : </td><td><?php echo $row["dest"]; ?></td>
             </tr>
             <tr>
-                <td>Month : </td><td><?php echo $row['month']; ?></td>
+                <td>Month : </td><td><?php echo $month = date('F', strtotime($date)); ?></td>
             </tr>
             <tr>
                 <td>Group Type : </td><td><?php echo $row['gender']; ?></td>
@@ -243,7 +213,7 @@ if ($result->num_rows > 0)
           <tr>
           	<input type="hidden" name="group_id" value="<?php echo $group_id; ?>">
             <input type="hidden" name="email" value="<?php echo $_SESSION['sess_user']; ?>">
-          	<td colspan="2" align="center"><input type="submit" class="btn btn-danger" name="leave_group" value="Leave Group"></td>
+          	<td colspan="2" align="center"><input type="button" onClick="history.go(-1);" class="btn btn-danger" name="ok" value="OK"></td>
           </tr>
           </form>
         </table>
